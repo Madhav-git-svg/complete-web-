@@ -1,0 +1,23 @@
+.generalbutton{
+    padding: 30px;
+    background-color:green;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.generalbutton:hover{
+    background-color:red;
+}
+
+.common-button{
+
+    padding: 30px;
+    background-color:green;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+.common-button:hover{
+    background-color:red;
+}
