@@ -1,0 +1,31 @@
+.container {
+  background-color: indianred;
+  padding: 50px;
+  height: 500px;
+}
+
+.container .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .button-container .button-base, .container .button-container .generalbutton, .container .button-container .common-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.container .button-container .button-base:hover, .container .button-container .generalbutton:hover, .container .button-container .common-button:hover {
+  background-color: green;
+}
+
+.container .button-container .button-text-extra, .container .button-container .generalbutton, .container .button-container .common-button {
+  border: 4px solid black;
+}
+/*# sourceMappingURL=main.css.map */

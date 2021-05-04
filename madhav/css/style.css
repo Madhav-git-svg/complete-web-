@@ -1,0 +1,30 @@
+.buttonG{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.buttonc{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.buttonG:hover{
+    background-color: yellow;
+}
+.buttonc:hover{
+    background-color: yellow;
+}
+.mc{
+    background-color: black;
+    color: white;
+    padding: 20px;
+  
+    cursor: pointer;  
+}
+.mc:hover{
+    background-color: yellow;
+}
