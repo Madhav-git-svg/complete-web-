@@ -1,18 +1,20 @@
-$primary-color:rgb(208, 243, 93);
-$secondary-color:red;
-$primary-text-color:white;
+@import './variables';
 
 
-.buttonG{
-   background-color:$primary-color;
-   color:$primary-text-color;
-   display: inline-block;
-   padding: 20px;
+.button-base{
+    background-color:$primary-color;
+    color:$primary-text-color;
+    display: inline-block;
+    padding: 20px;
+ }
+.button-base-extra{
+    border:4px solid rgb(19, 16, 11);
 }
-.buttonc{
-background-color:$primary-color;
-color:$primary-text-color;
-display: inline-block;
-padding: 20px;
+.buttonG{
+   @extend.button-base,.button-base-extra;
+}
 
+.buttonc{
+
+     @extend.button-base,.button-base-extra;
 }
