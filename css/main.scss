@@ -1,0 +1,43 @@
+
+$primary-color:blue;
+$secondary-color:red;
+$border-color:black;
+@mixin flexstyle($orientation) {
+    display: flex;
+    flex-direction:$orientation;
+    
+}
+.container{
+    background-color: indianred;
+    padding: 50px;
+    height: 500px;
+    .button-container{
+     @include flexstyle(row);
+        
+
+    
+
+
+.button-base{
+    background-color: $primary-color;
+color: white;
+padding:10px;
+display: inline-block;
+&:hover{
+    background-color: green;
+} 
+}
+.button-text-extra{
+    border: 4px solid $border-color;
+}
+
+
+.generalbutton{
+    @extend .button-base,.button-text-extra;
+
+}
+.common-button{
+ @extend.button-base,.button-text-extra;
+}
+    }
+}
