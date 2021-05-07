@@ -1,0 +1,77 @@
+$button-color:#f48024;
+$nav-color:#fafafb;
+$text-color:white;
+$font-style:tahoma;
+
+body{
+    font-family: $font-style;
+    margin: 0px;
+    
+    .header{
+       height: 50px;
+       background-color:$nav-color;
+       display: flex;
+       justify-content:space-around;
+       flex-direction: row;
+       align-items: center;
+       position: sticky;
+       top: 0px;
+
+       .msand{
+           &:hover{
+               background-color: green;
+           }
+           img{
+               width:45px;
+           }
+       }
+       .ma{
+        &:hover{
+            background-color: green;
+        }
+           img{
+              width: 45px;
+           }
+       }
+       
+       
+           .navbutton{
+            &:hover{
+                background-color: green;
+            }
+               background-color: $button-color;
+               color: $text-color;
+               border-radius: 40px;
+               padding: 8px;
+               font-size: 0.8em;
+           }
+       
+       
+         .searchbutton{
+             width: 80px;
+             display: flex;
+             flex-direction: row;
+             
+             
+         } 
+         .mdac{
+            &:hover{
+                background-color: green;
+            }
+             display: flex;
+             flex-direction: row;
+         }
+         
+
+         .am{
+             img{
+                &:hover{
+                    background-color: green;
+                }
+                 width: 50px;
+             }
+         }
+        
+       
+    }
+}
